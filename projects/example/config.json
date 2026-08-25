@@ -1,0 +1,15 @@
+{
+  "name": "Example Project",
+  "niche": "AI productivity tips",
+  "searchTerms": [
+    "aiproductivity",
+    "chatgpttips",
+    "aitools"
+  ],
+  "competitors": [
+    "https://www.instagram.com/leifabel11/"
+  ],
+  "maxPostsPerSearch": 30,
+  "maxCompetitorPosts": 10,
+  "browserPort": 9222
+}

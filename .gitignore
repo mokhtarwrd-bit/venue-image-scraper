@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Secrets — never commit
+.env
+.env.*
+*.token
+
+# Scraper output (per-venue data, images, reports)
+leads/
+output/
+projects/*/
+!projects/example/
+*.log

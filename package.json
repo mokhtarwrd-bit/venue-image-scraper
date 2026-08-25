@@ -1,0 +1,20 @@
+{
+  "name": "venue-image-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Scrapes a venue's public listing on Google Maps, Restaurant Guru, TripAdvisor and Instagram and downloads its images at full resolution, driving a real Chrome session over CDP.",
+  "license": "MIT",
+  "scripts": {
+    "scrape": "node scripts/scrape.js",
+    "transcribe": "bash scripts/transcribe.sh",
+    "report": "node scripts/report-html.js",
+    "report-md": "node scripts/report.js",
+    "venue": "node scripts/orchestrate.js",
+    "discover": "node scripts/discover-maps.js",
+    "instagram": "node scripts/harvest-instagram.js"
+  },
+  "dependencies": {
+    "chrome-remote-interface": "^0.33.0",
+    "sharp": "^0.35.2"
+  }
+}
